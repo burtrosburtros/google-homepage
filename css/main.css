@@ -1,26 +1,38 @@
-body    {
-    margin: 0 auto;
-    padding: 0;
+#container    {
+    margin: 10 0 0 0 auto;
+    text-align: center;
 }
 
 #logo   {
     display: block;
     position: relative;
-    margin: 0 auto 0 auto;
+    margin: auto;
     width: 470px; height: 146px;
 }
 
-#search {
+#searchbar {
     display: block;
-    height: 102px;
-    margin: 0 auto 0 auto;
+    margin: 20px auto 0 auto;
 }
 
-input[type="text"] {
-    border-color: rgba(128, 128, 128, 0.5);
-    border-width: 1px;
-    display: block;
-    width: 550px;
-    height: 33px;
-    margin: 25px auto 0 auto;
+input {
+    height: 30px;
+    width: 40em;
+    
+}
+
+#searchoptions  {
+    margin-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px 8px;
+    padding: 8px;
+    background-color: #F5F5F5;
+    border: 1px solid rgba(128,128,128,.5);
+    border-radius: 2px;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
 }
