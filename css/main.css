@@ -30,9 +30,68 @@ input {
     margin: 10px 8px;
     padding: 8px;
     background-color: #F5F5F5;
-    border: 1px solid rgba(128,128,128,.5);
+    border: 1px solid rgba(128,128,128,.3);
     border-radius: 2px;
     font-family: arial, sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: bold;
+}
+
+#header {
+    margin: 10px 40px 0 0;
+    height: 150px;
+}
+
+#header li  {
+    display: inline-block;
+    float: right;
+    padding: 0 0 0 20px;
+}
+
+#footer  {
+    height: 40px;
+    margin: 10px 0 0 0;
+    background-color: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+#footer li  {
+    display: inline-block;
+    padding: 0 0 0 20px;
+}
+
+#footer-left    {
+    float: left;
+    margin: 10px 0 0 20px;
+}
+
+#footer-right   {
+    float: right;
+    margin: 10px 40px 0 0;
+}
+
+a   {
+    font-family: arial, sans-serif;
+    font-size: small;
+    text-decoration: none;
+    color: #666666;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button:hover    {
+    border: 1.2px solid rgba(128,128,128,.8);
+    border-radius: 2px;
+    
+}
+
+input:hover {
+    border: 1.2px solid rgba(128,128,128,.8);
+    border-radius: 2px;
+    
 }
